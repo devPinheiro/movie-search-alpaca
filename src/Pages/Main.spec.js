@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import App from "./App";
+import App from "./Main";
 
 describe("Jest setup", () => {
   it("Should equal false", () => {
