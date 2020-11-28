@@ -5,14 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack-dev-server --open  --hot --config webpack.config.dev.js",
-    "test": "jest",
-    "format": "pretty-quick",
-    "lint": "eslint ./"
+    "dev": "webpack-dev-server --open  --hot --config webpack.config.dev.js"
+
   },
   "husky": {
     "hooks": {
-     "pre-commit": "npm run format --staged && npm run lint && npm run test"
+      "pre-commit": ""
     }
   },
   "keywords": [

@@ -7,14 +7,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(
-    to left,
-    rgba(7, 27, 82, 1) 0%,
-    rgba(0, 128, 128, 1) 100%
-  );
+      to left,
+      rgba(7, 7, 7, 0.527) 0%,
+      rgba(3, 3, 3, 0.747) 100%
+    ),
+    url("https://res.cloudinary.com/appnet/image/upload/v1606519383/netflix-background-9.jpg");
+  background-size: "cover";
+  background-position: "center";
+}
+
+h1 {
+  font-size: 6rem;
+  color: #fff;
+  text-align: center;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
 }

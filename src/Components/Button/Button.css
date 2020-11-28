@@ -1,0 +1,24 @@
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  width: 120px;
+  top: 2px;
+  position: relative;
+  height: 51px;
+  border-radius: 0px 5px 5px 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-normal,
+.button-normal:focus {
+  background: #e42929;
+  color: #ffffff;
+}
+
+.button-regular {
+  border-radius: 10px;
+  background: #e42929;
+  color: #ffffff;
+}
