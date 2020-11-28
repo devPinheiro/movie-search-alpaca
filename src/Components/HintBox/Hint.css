@@ -21,3 +21,13 @@
   background-color: #c0c0c031;
   cursor: pointer;
 }
+
+
+@media only screen and (min-width: 1200px){
+  .hint-box {
+    position: absolute;
+    top: 39%;
+    left: 32%;
+    z-index: 50;
+  }
+}
